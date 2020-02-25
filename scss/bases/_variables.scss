@@ -1,0 +1,29 @@
+$colors: (
+    main   :        #202122,
+    header :        #000,
+    color1 :        rgb(255, 255, 255),
+    color2 :        #fdc501,
+    color3 :        #e64e04,
+    color4 :        #949495,
+    color5 :        #505457, 
+    color6 :        #343434    
+);
+
+$written: (
+    main :          #808080,
+    color1 :        #fff,
+    color2 :        #fdc501
+);
+
+$font-family: (
+    main :          'Tahoma',
+    font1 :         'Verdana'
+);
+
+$size-theme: 1.4rem;
+
+$sizes: (
+    xs: 480px,
+    md: 640px,
+    lg: 1024px
+);

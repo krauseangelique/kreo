@@ -1,0 +1,30 @@
+ligne sous-titre
+
+methode Ludo:
+
+h1 {
+	position : relative;
+}
+h1:: before {  
+	position : absolute;  
+	bottom: 0; 
+	display: block;
+	content: "";
+  width: 3rem; 
+	height: 3px;
+	color: 
+}
+/* mettre le span ICI à l'intérieur du H1 */
+
+methode à tester:
+
+h1, h1::before, h1::after {  
+	display:inline-block;  
+	vertical-align: middle;
+}
+h1::before, h1::after {  
+	height: 10px;  
+	width: 100px;  
+	background: orange;  
+	content: ""
+}

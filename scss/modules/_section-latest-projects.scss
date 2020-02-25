@@ -1,0 +1,27 @@
+section.latest-projects{
+    border: 1px solid yellow;
+    min-width: 170px;
+    padding-bottom: 5%;
+}
+
+h2{
+    color: map-get($colors , color1);
+    text-transform: uppercase;
+}
+h2 span{
+    color: map-get($colors , color2);
+}
+.m-galerie{
+    padding: 0;
+    margin: 0;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.m-galerie-item{
+    
+    img{
+        width: 50%;
+    }
+}

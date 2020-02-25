@@ -1,0 +1,68 @@
+les flexs
+
+ <section class="our-awesome-services">
+                <div class="latest-projets">
+                <h2>our latest projets <span>. </span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolore quasi odio quam eveniet voluptatum earum labore, recusandae deleniti itaque dolorem neque natus architecto, illum laudantium debitis voluptates quod nemo quae. Quasi possimus, mollitia hic eaque ad totam. Dolor, amet?</p>
+                </div>
+                <div class="colonneN">
+                    <div class="l-colonneN-flex-container">
+                        <div class="l-colonneN-flex-item">
+                            <h3>Marketing.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt dolores illum voluptates reiciendis perspiciatis omnis reprehenderit, voluptate repellat ipsam nihil numquam debitis, a odit alias molestias. Esse, adipisci culpa.</p>
+                        </div>
+                        <div class="l-colonneN-flex-item">
+                            <h3>Videography.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt dolores illum voluptates reiciendis perspiciatis omnis reprehenderit, voluptate repellat ipsam nihil numquam debitis, a odit alias molestias. Esse, adipisci culpa.</p>
+                        </div>
+                        <div class="l-colonneN-flex-item">
+                            <h3>Photography.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt dolores illum voluptates reiciendis perspiciatis omnis reprehenderit, voluptate repellat ipsam nihil numquam debitis, a odit alias molestias. Esse, adipisci culpa.</p>
+                        </div>
+                    </div>
+                    <div class="l-colonneN-flex-container">
+                        <div class="l-colonneN-flex-item">
+                            <h3>Branding.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt dolores illum voluptates reiciendis perspiciatis omnis reprehenderit, voluptate repellat ipsam nihil numquam debitis, a odit alias molestias. Esse, adipisci culpa.</p>
+                        </div>
+                        <div class="l-colonneN-flex-item">
+                            <h3>Web design.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt dolores illum voluptates reiciendis perspiciatis omnis reprehenderit, voluptate repellat ipsam nihil numquam debitis, a odit alias molestias. Esse, adipisci culpa.</p>
+                        </div>
+                        <div class="l-colonneN-flex-item">
+                            <h3>Web development.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt dolores illum voluptates reiciendis perspiciatis omnis reprehenderit, voluptate repellat ipsam nihil numquam debitis, a odit alias molestias. Esse, adipisci culpa.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			
+			
+			/* scss */
+			
+			.l-colonneN-flex-container{
+    padding: 0;
+    margin: 0;
+    min-height: 17rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .l-colonneN-flex-item h3{
+     margin-left: 5%;
+    }
+
+@media screen and (min-width: map-get($sizes , md)){
+    .l-colonneN-flex-container{
+    padding: 0;
+    margin: 0;
+    min-height: 17rem;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .l-colonneN-flex-item h3{
+     margin-left: 5%;
+    }
+}
+

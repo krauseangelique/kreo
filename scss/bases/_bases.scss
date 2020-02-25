@@ -1,0 +1,90 @@
+/*  == Mobile First == */
+
+/* BALISES DE BASES */
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+     
+}
+
+body{
+    background-color: map-get($colors , main);
+    color: map-get($written , main);
+    font-family: map-get($written , main);
+    font-size: $size-theme;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1240px;
+
+}
+header{
+    background-color: map-get($colors , header);
+}
+h2{
+    color: map-get($colors , color1);
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+h2 span{
+    color: map-get($colors , color2);
+    
+}
+h3{
+    color: map-get($colors, color2);
+    text-transform: capitalize;
+}
+
+p :first-of-type{
+    font-size:1.4rem;
+}
+p{
+    font-size: 1.5rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+// navigation : Menu principal
+.navigation {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+  
+  @media screen and (min-width: map-get($sizes , md)) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media screen and (min-width: map-get($sizes , lg)) {
+    .navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;   
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
