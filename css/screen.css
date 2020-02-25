@@ -200,9 +200,6 @@ h2 span {
     height: auto; }
 
 .l-colonneN-flex-container {
-  padding: 0;
-  margin: 0;
-  min-height: 17rem;
   display: flex;
   flex-direction: column; }
 
@@ -211,10 +208,15 @@ h2 span {
 
 @media screen and (min-width: 640px) {
   .l-colonneN-flex-container {
-    padding: 0;
-    margin: 0;
-    min-height: 17rem;
     display: flex;
     flex-direction: row; }
   .l-colonneN-flex-item h3 {
     margin-left: 5%; } }
+
+blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-style: italic;
+  background-color: #fdc501; }
