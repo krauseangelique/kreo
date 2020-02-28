@@ -21,11 +21,15 @@ body{
 header{
     background-color: map-get($colors , header);
 }
+h1{
+  font-family: map-get($written , font1);
+}
 h2{
     color: map-get($colors , color1);
     text-transform: uppercase;
     margin-left: 5%;
     margin-top: 5%;
+    font-family: map-get($written , font1);
 }
 h2 span{
     color: map-get($colors , color2);
@@ -34,6 +38,7 @@ h2 span{
 h3{
     color: map-get($colors, color2);
     text-transform: capitalize;
+    font-family: map-get($written , font1);
 }
 
 p :first-of-type{
