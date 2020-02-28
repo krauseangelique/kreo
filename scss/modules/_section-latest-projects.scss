@@ -24,10 +24,25 @@ h2 span{
         //width 50% pour en avoir 2 en smatphone
         width: 50%;
         height: auto;
-    }
-
-    
+    }    
 }
+@media screen and (min-width: map-get($sizes , md)){
+
+    img{
+        //width 33% pour en avoir 3 en vue tablette
+        width: 33%;
+        height: auto;
+    }
+}
+@media screen and (min-width: map-get($sizes , lg)){
+    img{
+    //width 25% pour en avoir 4 en vue bureau
+    width: 25%;
+    height: auto;
+    }
+}
+
+
 
     
  
