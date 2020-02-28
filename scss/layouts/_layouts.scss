@@ -30,13 +30,14 @@
 .l-main-nav{
 	display: none;
 	background-color: map-get($colors , header); // aqua;
-	text-transform: uppercase;
+	
 }
 
 
 .l-main-nav ul{
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 .l-main-nav li{
