@@ -1,5 +1,6 @@
 /* screen.scss recoit tous les imports */
 /* Reset Alligator */
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:600&display=swap");
 *, *:before, *:after {
   box-sizing: inherit; }
 
