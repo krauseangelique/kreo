@@ -12,15 +12,13 @@ h2 span{
     color: map-get($colors , color2);
 }
 .m-galerie{
-   
-
-    display: flex;
+     display: flex;
     flex-direction: row;
     // wrap pour aller à la ligne automatiquement
     flex-wrap: wrap;
     width: 100%;
 
-    img{
+    .m-imgGalerie img{
         //width 50% pour en avoir 2 en smatphone
         width: 50%;
         height: auto;
@@ -28,14 +26,14 @@ h2 span{
 }
 @media screen and (min-width: map-get($sizes , md)){
 
-    img{
+    .m-imgGalerie img{
         //width 33% pour en avoir 3 en vue tablette
         width: 33%;
         height: auto;
     }
 }
 @media screen and (min-width: map-get($sizes , lg)){
-    img{
+    .m-imgGalerie img{
     //width 25% pour en avoir 4 en vue bureau
     width: 25%;
     height: auto;
