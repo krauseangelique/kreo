@@ -2,21 +2,21 @@
 
 /* CLASSES */
 .l-container{
-    max-width: 960px;
+    max-width: 1020px;
     margin: 0 auto;
     border: 2px solid green;  // à enlever quand je rends le travail
 }
 .l-header{
     display: flex;
     flex-direction: row;
-	border: 1px solid yellow;
+	border: 1px solid yellow; // à enlever quand je rends le travail
 	background-color:map-get($colors , color2); //#fdc501;
 }
 .l-header > div{
     width: 25%;
     padding: 10px;
     min-height: 5rem;
-    border: 1px solid red; 
+    border: 1px solid red;  // à enlever quand je rends le travail
 }
 .pull{
     margin-right: auto;
@@ -29,22 +29,18 @@
 
 .l-main-nav{
 	display: none;
-	background-color: map-get($colors , header); // aqua;
-	
+	background-color: map-get($colors , header); // aqua;grey	
 }
-
 
 .l-main-nav ul{
 	margin: 0;
-	padding: 0;
-	
+	padding: 0;	
 }
 
 .l-main-nav li{
 	list-style: none;
 	text-transform: uppercase;
 	padding-right: 1rem;
-
 } 
 
 .l-main-nav a{

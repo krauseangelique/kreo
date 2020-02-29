@@ -1,5 +1,5 @@
 section.m-color-quote{
-    border: 1px solid yellow;
+    border: 1px solid yellow; // à enlever lorsque je rendrai le travail
     min-width: 170px;
     padding-bottom: 5%;
     background-color: map-get($colors , color2);
@@ -11,7 +11,4 @@ blockquote{
     margin-left: 4rem;
     margin-right: 4rem;
     font-style: italic;
-    
-
-
 }
