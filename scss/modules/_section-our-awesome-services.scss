@@ -1,6 +1,4 @@
- .l-colonneN-flex-container{
-    
-    
+ .l-colonneN-flex-container{ 
    // min-height: 17rem;
     display: flex;
     flex-direction: column;
@@ -11,12 +9,11 @@
     }
 
 @media screen and (min-width: map-get($sizes , md)){
-    .l-colonneN-flex-container{
-    
-    
+    .l-colonneN-flex-container{ 
   //  min-height: 17rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     }
 
     .l-colonneN-flex-item h3{
