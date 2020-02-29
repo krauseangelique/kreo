@@ -1,0 +1,42 @@
+/* MODULE meet our team */
+
+.m-colonneP-flex-container{ 
+    display: flex;
+    flex-direction: column;
+    }
+    .m-colonneP-flex-item{
+      width: 100%;
+    }
+    .m-colonneP-flex-item h3{
+     margin-left: 5%;
+    } 
+
+@media screen and (min-width: map-get($sizes , md)){
+    .m-colonneP-flex-container{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .m-colonneP-flex-item{
+      width: 32%;
+    }
+    .m-colonneP-flex-item h3{
+     margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: map-get($sizes , md)){
+    .m-colonneP-flex-container{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .m-colonneP-flex-item{
+      width: 23%;
+    }
+    .m-colonneP-flex-item h3{
+     margin-left: 5%;
+    }
+}
+
+/* fin du MODULE meet our team */

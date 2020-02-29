@@ -39,7 +39,7 @@ h1 {
 
 h2 {
   color: white;
-  text-transform: uppercase;
+  font-variant-caps: all-small-caps;
   margin-left: 5%;
   margin-top: 5%;
   font-family: Helvetica, Arial, sans-serif; }
@@ -51,6 +51,11 @@ h3 {
   color: #fdc501;
   text-transform: capitalize;
   font-family: Helvetica, Arial, sans-serif; }
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: capitalize; }
 
 p :first-of-type {
   font-size: 1.4rem; }
@@ -250,6 +255,7 @@ h2 span {
   .m-colonneN-flex-item h3 {
     margin-left: 5%; } }
 
+/* modules who we are */
 .m-colonneM-flex-container {
   display: flex;
   flex-direction: column; }
@@ -270,6 +276,38 @@ h2 span {
   .m-colonneM-flex-item h3 {
     margin-left: 5%; } }
 
+/* MODULE meet our team */
+.m-colonneP-flex-container {
+  display: flex;
+  flex-direction: column; }
+
+.m-colonneP-flex-item {
+  width: 100%; }
+
+.m-colonneP-flex-item h3 {
+  margin-left: 5%; }
+
+@media screen and (min-width: 640px) {
+  .m-colonneP-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .m-colonneP-flex-item {
+    width: 32%; }
+  .m-colonneP-flex-item h3 {
+    margin-left: 5%; } }
+
+@media screen and (min-width: 640px) {
+  .m-colonneP-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .m-colonneP-flex-item {
+    width: 23%; }
+  .m-colonneP-flex-item h3 {
+    margin-left: 5%; } }
+
+/* fin du MODULE meet our team */
 section.m-color-quote {
   border: 1px solid yellow;
   min-width: 170px;
