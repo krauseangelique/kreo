@@ -1,0 +1,32 @@
+ .m-colonneM-flex-container{ 
+    display: flex;
+    flex-direction: column;
+    }
+    .m-colonneM-flex-item{
+      width: 100%;
+    }
+    .m-colonneM-flex-item h3{
+     margin-left: 5%;
+    } 
+
+@media screen and (min-width: map-get($sizes , md)){
+    .m-colonneM-flex-container{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .m-colonneM-flex-item{
+      width: 50%;
+    }
+    .m-colonneM-flex-item h3{
+     margin-left: 5%;
+    }
+}
+
+
+
+
+
+
+
+

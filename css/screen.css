@@ -250,6 +250,26 @@ h2 span {
   .m-colonneN-flex-item h3 {
     margin-left: 5%; } }
 
+.m-colonneM-flex-container {
+  display: flex;
+  flex-direction: column; }
+
+.m-colonneM-flex-item {
+  width: 100%; }
+
+.m-colonneM-flex-item h3 {
+  margin-left: 5%; }
+
+@media screen and (min-width: 640px) {
+  .m-colonneM-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .m-colonneM-flex-item {
+    width: 50%; }
+  .m-colonneM-flex-item h3 {
+    margin-left: 5%; } }
+
 section.m-color-quote {
   border: 1px solid yellow;
   min-width: 170px;
