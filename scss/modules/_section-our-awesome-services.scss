@@ -1,25 +1,44 @@
- .l-colonneN-flex-container{ 
-   // min-height: 17rem;
+ .m-colonneN-flex-container{ 
     display: flex;
     flex-direction: column;
     }
-
-    .l-colonneN-flex-item h3{
-     margin-left: 5%;
+    .m-colonneN-flex-item{
+      width: 100%;
     }
+    .m-colonneN-flex-item h3{
+     margin-left: 5%;
+    } 
 
 @media screen and (min-width: map-get($sizes , md)){
-    .l-colonneN-flex-container{ 
-  //  min-height: 17rem;
+    .m-colonneN-flex-container{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     }
-
-    .l-colonneN-flex-item h3{
+    .m-colonneN-flex-item{
+      width: 50%;
+    }
+    .m-colonneN-flex-item h3{
      margin-left: 5%;
     }
 }
+
+@media screen and (min-width: map-get($sizes , lg)){
+  .m-colonneN-flex-container{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .m-colonneN-flex-item{
+    width: 32%;
+    height: auto;
+  }
+  .m-colonneN-flex-item h3{
+   margin-left: 5%;
+  }
+}
+
+
 
 
 
