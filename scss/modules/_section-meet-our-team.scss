@@ -1,45 +1,51 @@
 /* MODULE meet our team */
+.m-colonneT-big-container{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
 
-.m-imgTeam{
-    max-width: 50%;
-    height:auto;
+
+    .m-colonneT-flex-container{ 
+        display: flex;
+        flex-direction: row;
+        border: 1px solid darkcyan;
+        }
+        img.m-imgTeam {
+        max-width: 50%;
+        height:auto;
+    }
+        .m-colonneT-flex-item{
+        width: 100%;
+        }
+        .m-colonneT-flex-item h3{
+        margin-left: 5%;
+        } 
 }
 
-.m-colonneP-flex-container{ 
-    display: flex;
-    flex-direction: column;
-    }
-    .m-colonneP-flex-item{
-      width: 100%;
-    }
-    .m-colonneP-flex-item h3{
-     margin-left: 5%;
-    } 
-
 @media screen and (min-width: map-get($sizes , md)){
-    .m-colonneP-flex-container{ 
+    .m-colonneT-flex-container{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     }
-    .m-colonneP-flex-item{
+    .m-colonneT-flex-item{
       width: 32%;
     }
-    .m-colonneP-flex-item h3{
+    .m-colonneT-flex-item h3{
      margin-left: 5%;
     }
 }
 
 @media screen and (min-width: map-get($sizes , md)){
-    .m-colonneP-flex-container{ 
+    .m-colonneT-flex-container{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     }
-    .m-colonneP-flex-item{
+    .m-colonneT-flex-item{
       width: 23%;
     }
-    .m-colonneP-flex-item h3{
+    .m-colonneT-flex-item h3{
      margin-left: 5%;
     }
 }
