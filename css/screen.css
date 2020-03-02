@@ -1,6 +1,5 @@
 /* screen.scss recoit tous les imports */
 /* Reset Alligator */
-@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:600&display=swap");
 *, *:before, *:after {
   box-sizing: inherit; }
 
@@ -11,6 +10,10 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 ol, ul {
   list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 /*  == Mobile First == */
 /* BALISES DE BASES */
@@ -210,9 +213,10 @@ h2 span {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%; }
-  .m-galerie img.m-imgGalerie {
-    width: 50%;
-    height: auto; }
+
+img.m-imgGalerie {
+  width: 50%;
+  height: auto; }
 
 @media screen and (min-width: 640px) {
   img.m-imgGalerie {
@@ -284,7 +288,7 @@ h2 span {
   .m-colonneT-big-container .m-colonneT-flex-container {
     display: flex;
     flex-direction: row;
-    border: 1px solid #108b00; }
+    border: 1px solid #8b3300; }
   .m-colonneT-big-container img.m-imgTeam {
     max-width: 50%;
     height: auto; }

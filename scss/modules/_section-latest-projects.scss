@@ -21,12 +21,13 @@ h2 span{
     flex-wrap: wrap;
     width: 100%;
 
-   img.m-imgGalerie {
+     
+} 
+img.m-imgGalerie {
         //width 50% pour en avoir 2 en smatphone
         width: 50%;
         height: auto;
-    }    
-}
+    } 
 @media screen and (min-width: map-get($sizes , md)){
 
     img.m-imgGalerie {
