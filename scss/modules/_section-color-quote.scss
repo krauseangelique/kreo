@@ -3,12 +3,17 @@ section.m-color-quote{
     min-width: 170px;
     padding-bottom: 5%;
     background-color: map-get($colors , color2);
-}
 
-blockquote{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    font-style: italic;
+
+    blockquote{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        font-style: italic;
+        font-size: 1.7rem;
+        
+        color: map-get($colors , color1);
+    
+    }
 }

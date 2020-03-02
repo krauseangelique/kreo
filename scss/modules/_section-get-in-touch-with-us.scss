@@ -1,0 +1,42 @@
+.m-colonneC-flex-container{ 
+    display: flex;
+    flex-direction: column;
+    }
+    .m-colonneC-flex-item{
+      width: 100%;
+      border: 1px solid burlywood;
+    }
+    .m-colonneC-flex-item h3{
+     margin-left: 5%;
+    } 
+
+@media screen and (min-width: map-get($sizes , md)){
+    .m-colonneC-flex-container{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .m-colonneC-flex-item{
+      width: 50%;
+     
+    }
+    .m-colonneC-flex-item h3{
+     margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: map-get($sizes , lg)){
+  .m-colonneC-flex-container{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .m-colonneC-flex-item{
+    width: 32%;
+    height: auto;
+  }
+  .m-colonneC-flex-item h3{
+   margin-left: 5%;
+  }
+}
+
