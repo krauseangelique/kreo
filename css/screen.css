@@ -277,34 +277,40 @@ h2 span {
     margin-left: 5%; } }
 
 /* MODULE meet our team */
-.m-colonneP-flex-container {
+.m-colonneT-big-container {
   display: flex;
-  flex-direction: column; }
-
-.m-colonneP-flex-item {
-  width: 100%; }
-
-.m-colonneP-flex-item h3 {
-  margin-left: 5%; }
+  flex-direction: column;
+  border: 1px solid lightblue; }
+  .m-colonneT-big-container .m-colonneT-flex-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #108b00; }
+  .m-colonneT-big-container img.m-imgTeam {
+    max-width: 50%;
+    height: auto; }
+  .m-colonneT-big-container .m-colonneT-flex-item {
+    width: 100%; }
+  .m-colonneT-big-container .m-colonneT-flex-item h3 {
+    margin-left: 5%; }
 
 @media screen and (min-width: 640px) {
-  .m-colonneP-flex-container {
+  .m-colonneT-flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-  .m-colonneP-flex-item {
+  .m-colonneT-flex-item {
     width: 32%; }
-  .m-colonneP-flex-item h3 {
+  .m-colonneT-flex-item h3 {
     margin-left: 5%; } }
 
 @media screen and (min-width: 640px) {
-  .m-colonneP-flex-container {
+  .m-colonneT-flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-  .m-colonneP-flex-item {
+  .m-colonneT-flex-item {
     width: 23%; }
-  .m-colonneP-flex-item h3 {
+  .m-colonneT-flex-item h3 {
     margin-left: 5%; } }
 
 /* fin du MODULE meet our team */
