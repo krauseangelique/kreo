@@ -25,7 +25,7 @@
 @media screen and (min-width: map-get($sizes , md)){
     .m-colonneT-flex-container{ 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     }
     .m-colonneT-flex-item{
@@ -39,7 +39,7 @@
 @media screen and (min-width: map-get($sizes , md)){
     .m-colonneT-flex-container{ 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     }
     .m-colonneT-flex-item{
