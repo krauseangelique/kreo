@@ -2,7 +2,7 @@
 .m-colonneT-big-container{
     display:flex;
     flex-direction: column;
-    border: 1px solid lightblue;
+    border: 3px dotted rgb(63, 4, 32);
 
 
     .m-colonneT-flex-container{ 
@@ -11,7 +11,7 @@
         border: 1px solid rgb(139, 51, 0);
         }
         img.m-imgTeam {
-        width: 50%;
+        width: 32%;
         height:auto;
     }
         .m-colonneT-flex-item{
@@ -26,7 +26,7 @@
     .m-colonneT-big-container{
        
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     width: 32%;
    
     }
@@ -36,29 +36,17 @@
       border: 1px solid rgb(139, 51, 0);
       }
       img.m-imgTeam {
-      max-width: 32%;
+      width: 32%;
       height:auto;
   }
       .m-colonneT-flex-item{
-      width: 100%;
+      width: 32%;
       }
       .m-colonneT-flex-item h3{
       margin-left: 5%;
       } 
 }
 
-@media screen and (min-width: map-get($sizes , lg)){
-    .m-colonneT-flex-container{ 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    }
-    .m-colonneT-flex-item{
-      width: 23%;
-    }
-    .m-colonneT-flex-item h3{
-     margin-left: 5%;
-    }
-}
+
 
 /* fin du MODULE meet our team */
