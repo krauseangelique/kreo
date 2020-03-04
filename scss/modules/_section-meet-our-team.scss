@@ -11,7 +11,7 @@
         border: 1px solid rgb(139, 51, 0);
         }
         img.m-imgTeam {
-        max-width: 50%;
+        width: 50%;
         height:auto;
     }
         .m-colonneT-flex-item{
@@ -23,20 +23,31 @@
 }
 
 @media screen and (min-width: map-get($sizes , md)){
-    .m-colonneT-flex-container{ 
+    .m-colonneT-big-container{
+       
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
+    width: 32%;
+   
     }
-    .m-colonneT-flex-item{
-      width: 32%;
-    }
-    .m-colonneT-flex-item h3{
-     margin-left: 5%;
-    }
+    .m-colonneT-flex-container{ 
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgb(139, 51, 0);
+      }
+      img.m-imgTeam {
+      max-width: 32%;
+      height:auto;
+  }
+      .m-colonneT-flex-item{
+      width: 100%;
+      }
+      .m-colonneT-flex-item h3{
+      margin-left: 5%;
+      } 
 }
 
-@media screen and (min-width: map-get($sizes , md)){
+@media screen and (min-width: map-get($sizes , lg)){
     .m-colonneT-flex-container{ 
     display: flex;
     flex-direction: column;
