@@ -3,23 +3,21 @@ section.we-are{
     height: 40rem; // pour visualiser l'image IL FAUT METTRE UNE hauteur A LA DIV
   /*  max-width: 100%;*/
    background-size: cover; // pour éviter les redites d'image
-   background-position-x: 70%; // faire bouger l'image jusqu'à faire apparaître la portion voulue
+   background-position-x: 70%; // faire bouger l'image jusqu'à faire apparaître la portion voulue ici le plongeur et le rocher
    background-color: map-get($colors , color6 );
    border: 1px solid yellow;
 }
 h1 {
     font-size: 2.9rem;
     position : relative;
-    margin-right: 30%;
-    margin-bottom: 2%;
+   padding-right: 30%;
+    margin-bottom: 6%;
     padding-top: 12%;
     padding-left: 5%;
     color: map-get($colors , color1);
     display: inline-block;
 }
-span{
-    font-size: 2.8rem;
-}
+
 h1::before {  
 	position : absolute;  
 	bottom: 2rem; 
