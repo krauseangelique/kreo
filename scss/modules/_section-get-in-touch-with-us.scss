@@ -14,11 +14,11 @@
 @media screen and (min-width: map-get($sizes , md)){
     .m-colonneC-flex-container{ 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     }
     .m-colonneC-flex-item{
-      width: 100%;
+      width: 50%;
      
     }
     .m-colonneC-flex-item h3{
