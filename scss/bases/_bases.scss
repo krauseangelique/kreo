@@ -19,14 +19,14 @@ header{
     background-color: map-get($colors , header);
 }
 h1{
+  text-align: center;
   font-size: 2.9rem;
  // font-family: Georgia, Times, 'Times New Roman', serif;
   font-family: map-get($written , font1);
 
-
   // ligne de TITRE
   position: relative;
-  display: block;
+  display: inline-block;
 
   &::after{
     content: "";
@@ -37,8 +37,10 @@ h1{
     background-color: map-get($colors , color2 );
     position: absolute;
     left: calc(50% - 9rem);
-    top: 23rem;
+    bottom: -2rem;
   }
+
+  
 
 }
 h2{
@@ -117,6 +119,13 @@ p{
   @media screen and (min-width: map-get($sizes , md)) {
     .navigation {
       justify-content: space-around;
+    }
+    h1{
+      text-align: left;
+    }
+    h1::after{
+      left: 5rem;
+      
     }
   }
   
