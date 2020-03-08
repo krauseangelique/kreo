@@ -21,6 +21,14 @@
         margin-left: 5%;
         } 
 }
+.function{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-left: 1rem;
+
+}
+
 
 @media screen and (min-width: map-get($sizes , md)){
   .m-colonneT-super-container{

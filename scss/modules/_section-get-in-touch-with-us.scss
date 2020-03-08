@@ -3,27 +3,40 @@
   flex-direction: column;
   border: 3px dashed rgb(63, 4, 32);
 
-
-  .m-colonneC-flex-container{ 
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      }
-      .m-colonneC-flex-item{
-        width: 100%;
-        border: 1px solid burlywood;
-      }
-      .m-colonneC-flex-item h3{
-      margin-left: 5%;
-      } 
 }
+.m-colonneC-flex-container{ 
+  display: flex;
+  flex-direction: column;
+  
+  border: 1px solid brown;
+  }
+  .m-colonneC-flex-item{
+    width: 100%;
+    border: 1px solid burlywood;
+  }
+  .m-colonneC-flex-item h3{
+  margin-left: 5%;
+  } 
+  .form-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  input, textarea{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: map-get($colors , color5);
 
+  }
+  [type="submit"]{
+    background-color: map-get($colors , color2);
+  }
 @media screen and (min-width: map-get($sizes , md)){
     .m-colonneC-flex-container{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    }
+   
     .m-colonneC-flex-item{
       width: 50%;
      
@@ -31,5 +44,6 @@
     .m-colonneC-flex-item h3{
      margin-left: 5%;
     }
+   }
 }
 
