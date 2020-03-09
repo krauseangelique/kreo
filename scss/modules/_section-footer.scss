@@ -1,0 +1,14 @@
+/* MODULE footer */
+//socialMedia
+
+.socialMedia li{
+    display: inline-block;
+    
+    list-style: none;
+      
+}
+.socialMedia i{
+    color: map-get($colors , color4); 
+}
+
+/* fin module footer */

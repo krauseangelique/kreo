@@ -429,3 +429,13 @@ input, textarea {
       width: 50%; }
     .m-colonneC-flex-container .m-colonneC-flex-item h3 {
       margin-left: 5%; } }
+
+/* MODULE footer */
+.socialMedia li {
+  display: inline-block;
+  list-style: none; }
+
+.socialMedia i {
+  color: #949495; }
+
+/* fin module footer */
