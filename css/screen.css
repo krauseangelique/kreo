@@ -403,8 +403,7 @@ section.m-color-quote {
 
 .form-flex {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  flex-direction: column; }
 
 .m-colonneC-flex-item {
   width: 100%;
