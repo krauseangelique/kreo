@@ -3,7 +3,9 @@ section.m-latest-projects{
     min-width: 170px;
     padding-bottom: 5%;
 }
-
+.fa{
+    color: map-get($colors , color3);
+}
 h2{
     color: map-get($colors , color1);
     text-transform: uppercase;

@@ -2,7 +2,7 @@
 .m-colonneT-big-container{
     display:flex;
     flex-direction: column;
-    border: 1px solid lightblue;
+    border: 3px dashed rgb(63, 4, 32);
 
 
     .m-colonneT-flex-container{ 
@@ -11,7 +11,7 @@
         border: 1px solid rgb(139, 51, 0);
         }
         img.m-imgTeam {
-        max-width: 50%;
+        width: 32%;
         height:auto;
     }
         .m-colonneT-flex-item{
@@ -21,33 +21,68 @@
         margin-left: 5%;
         } 
 }
+.function{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-left: 1rem;
 
-@media screen and (min-width: map-get($sizes , md)){
-    .m-colonneT-flex-container{ 
-    display: flex;
-    flex-direction: column;
-    /*flex-wrap: wrap;*/
-    }
-    .m-colonneT-flex-item{
-      width: 32%;
-    }
-    .m-colonneT-flex-item h3{
-     margin-left: 5%;
-    }
 }
 
+
 @media screen and (min-width: map-get($sizes , md)){
-    .m-colonneT-flex-container{ 
+  .m-colonneT-super-container{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     flex-wrap: wrap;
+    border: 1px solid red;
+    justify-content: space-between;
+  }
+
+
+    .m-colonneT-big-container{
+       
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    margin: 1rem 0;
+   
+    
+    border: 3px dashed rgb(63, 4, 32);
+
+   
+    
+    .m-colonneT-flex-container{ 
+      display: flex;
+      flex-direction: column;
+      
+      border: 1px solid rgb(139, 51, 0);
+      }
+      img.m-imgTeam {
+      width: 100%;
+      height:auto;
+  }
+      .m-colonneT-flex-item{
+      width: 100%;
+      }
+      .m-colonneT-flex-item h3{
+      margin-left: 5%;
+      } 
+}
+}
+
+@media screen and (min-width: map-get($sizes , lg)){
+
+  .m-colonneT-big-container{
+       
+    display: flex;
+    flex-direction:column;
+    width: 22%;
+    border: 3px dashed rgb(63, 4, 32);
+
+   
     }
-    .m-colonneT-flex-item{
-      width: 23%;
-    }
-    .m-colonneT-flex-item h3{
-     margin-left: 5%;
-    }
+
 }
 
 /* fin du MODULE meet our team */

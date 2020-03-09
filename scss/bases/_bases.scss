@@ -8,7 +8,7 @@ html{
 body{
     background-color: map-get($colors , main);
     color: map-get($written , main);
-    font-family: Georgia, Times, 'Times New Roman', serif;
+   // font-family: Georgia, Times, 'Times New Roman', serif;
     font-family: map-get($written , font1);
     font-size: $size-theme;
     padding: 0;
@@ -19,18 +19,53 @@ header{
     background-color: map-get($colors , header);
 }
 h1{
+  text-align: center;
   font-size: 2.9rem;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+ // font-family: Georgia, Times, 'Times New Roman', serif;
   font-family: map-get($written , font1);
+
+  // ligne de TITRE
+  position: relative;
+  display: inline-block;
+
+  &::after{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 18rem;
+   
+    background-color: map-get($colors , color2 );
+    position: absolute;
+    left: calc(50% - 9rem);
+    bottom: -2rem;
+  }
+
+  
 
 }
 h2{
     color: map-get($colors , color1);
     font-variant-caps: all-small-caps;
-    margin-left: 5%;
-    margin-top: 5%;
-    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  //  font-family: Helvetica, Arial, sans-serif;
     font-family: map-get($written , font2);
+
+  // ligne de TITRE
+    position: relative;
+    display: block;
+
+      &::after{
+        content: "";
+        display: inline-block;
+        width: 10rem;
+        height: 3px;
+        background-color: map-get($colors , color4);
+
+        position: absolute;
+        left: calc(50% - 5rem);
+        top: 3rem;
+        
+      }
 }
 h2 span{
     color: map-get($colors , color2);
@@ -39,15 +74,10 @@ h2 span{
 h3{
     color: map-get($colors, color2);
     text-transform: capitalize;
-    font-family: Helvetica, Arial, sans-serif;
+  //  font-family: Helvetica, Arial, sans-serif;
     font-family: map-get($written , font2);
 }
-h4{
-  font-size: 1.5rem;
-  font-weight: bolder;
-  text-transform: capitalize;
 
-}
 
 p :first-of-type{
     font-size: 1.4rem;
@@ -83,6 +113,13 @@ p{
   @media screen and (min-width: map-get($sizes , md)) {
     .navigation {
       justify-content: space-around;
+    }
+    h1{
+      text-align: left;
+    }
+    h1::after{
+      left: 5rem;
+      
     }
   }
   

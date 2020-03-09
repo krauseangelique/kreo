@@ -8,12 +8,38 @@ section.m-color-quote{
     blockquote{
         margin-top: 3rem;
         margin-bottom: 1rem;
-        margin-left: 10rem;
-        margin-right: 10rem;
+        
         font-style: italic;
-        font-size: 1.7rem;
+        
         
         color: map-get($colors , color1);
     
+        q{
+            quotes : "“" " „";
+            font-size: 1.7rem;
+            line-height: 1.5;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        span{
+            font-size: 1.9rem;
+        }
+    }
+}
+@media screen and (min-width: map-get($sizes , md)){
+
+    blockquote{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        }
+    q{
+        font-size: 2.1rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    span{
+        font-size: 2.4rem;
     }
 }
