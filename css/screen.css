@@ -24,7 +24,7 @@ html {
 
 body {
   background-color: #202122;
-  color: #808080;
+  color: #505457;
   font-size: 1.4rem;
   padding: 0;
   margin: 0 auto;
@@ -435,9 +435,63 @@ input, textarea {
 /* MODULE footer */
 .socialMedia li {
   display: inline-block;
+  font-size: 2.5rem;
   list-style: none; }
 
 .socialMedia i {
   color: #949495; }
+
+footer a {
+  height: 2rem; }
+
+.m-colonneF-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+  border: 1px solid brown; }
+
+.m-colonneF-flex-item {
+  border: 1px solid burlywood; }
+
+.logo {
+  text-align: center;
+  margin-top: 2.5rem; }
+  .logo img {
+    width: 33%; }
+
+.conclusion {
+  text-align: center; }
+
+.m-colonneCopy-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid brown; }
+
+.m-colonneCopy-flex-item {
+  text-align: center;
+  border: 1px solid burlywood; }
+
+.note {
+  font-style: italic;
+  font-size: 1.8rem; }
+
+@media screen and (min-width: 640px) {
+  .logo {
+    text-align: center;
+    margin-top: 2.5rem; }
+    .logo img {
+      width: 20%; }
+  .m-colonneCopy-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid brown; }
+  .m-colonneCopy-flex-item:last-child {
+    margin-left: 0; }
+  .m-colonneCopy-flex-item:last-child span {
+    color: #949495;
+    font-size: 1.8rem; } }
 
 /* fin module footer */
