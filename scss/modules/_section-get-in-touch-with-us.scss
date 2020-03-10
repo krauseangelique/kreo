@@ -36,6 +36,8 @@
     padding: 1rem;
     margin: 1rem;
     background-color: map-get($colors , color5);
+    border: none;  // pour enlever la bordure autour des input et du textarea
+    border-radius: 3px;
 
   }
   [type="submit"]{

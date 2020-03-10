@@ -415,7 +415,9 @@ section.m-color-quote {
 input, textarea {
   padding: 1rem;
   margin: 1rem;
-  background-color: #505457; }
+  background-color: #505457;
+  border: none;
+  border-radius: 3px; }
 
 [type="submit"] {
   background-color: #fdc501; }
