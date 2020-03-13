@@ -1,5 +1,22 @@
 /*  == Mobile First == */
 
+@font-face {
+  font-family: 'font1';
+  src: local("Merriweather-LightItalic"),
+        url('.\fonts\Merriweather-LightItalic.ttf') format('ttf');
+    //  url('.\fonts\Merriweather.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+  font-family: 'font2';
+  src: local("OpenSans-Regular"),
+  url('.\fonts\OpenSans-Regular.ttf') format('ttf');
+    //  url('.\fonts\OpenSans.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
 /* BALISES DE BASES */
 html{
     font-size: 62.5%;
@@ -21,8 +38,8 @@ header{
 h1{
   text-align: center;
   font-size: 2.9rem;
- // font-family: Georgia, Times, 'Times New Roman', serif;
-  font-family: map-get($written , font1);
+ font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: map-get($font-family , font1);
 
   // ligne de TITRE
   position: relative;
@@ -47,8 +64,8 @@ h2{
     color: map-get($colors , color1);
     font-variant-caps: all-small-caps;
     text-align: center;
-  //  font-family: Helvetica, Arial, sans-serif;
-    font-family: map-get($written , font2);
+  font-family: Helvetica, Arial, sans-serif;
+    font-family: map-get($font-family , font2);
 
   // ligne de TITRE
     position: relative;
@@ -74,7 +91,7 @@ h2 span{
 h3{
     color: map-get($colors, color2);
     text-transform: capitalize;
-  //  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
     font-family: map-get($written , font2);
 }
 
@@ -137,4 +154,5 @@ p{
     .navigation li:last-of-type a {
       border-bottom: none;
     }
+    
   }

@@ -17,6 +17,18 @@ img {
   height: auto; }
 
 /*  == Mobile First == */
+@font-face {
+  font-family: 'font1';
+  src: local("Merriweather-LightItalic"), url(".ontsMerriweather-LightItalic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'font2';
+  src: local("OpenSans-Regular"), url(".ontsOpenSans-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 /* BALISES DE BASES */
 html {
   font-size: 62.5%;
@@ -36,6 +48,8 @@ header {
 h1 {
   text-align: center;
   font-size: 2.9rem;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: "Merriweather";
   position: relative;
   display: inline-block; }
   h1::after {
@@ -52,6 +66,8 @@ h2 {
   color: white;
   font-variant-caps: all-small-caps;
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans";
   position: relative;
   display: block; }
   h2::after {
@@ -69,7 +85,8 @@ h2 span {
 
 h3 {
   color: #fdc501;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  font-family: Helvetica, Arial, sans-serif; }
 
 p :first-of-type {
   font-size: 1.4rem; }
@@ -173,7 +190,7 @@ p {
   .l-main-nav {
     display: inline-block;
     width: 100%;
-    text-align: center; }
+    text-align: right; }
   .l-main-nav li {
     display: inline-block; }
   .l-main-hamburger {
