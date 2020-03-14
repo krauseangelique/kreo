@@ -1,9 +1,25 @@
-.color-buttom{
-    height: 3rem;
-    width: 4 rem;
-    padding: 1rem;
-    background-color: map-get($colors , color3);
-    color: map-get($written , color1 );
-    text-transform: uppercase;
+.about{
     text-align: center;
+
+    .color-buttom{
+
+        height: 6rem;
+        display: inline-block;
+        padding: 2rem;
+        background-color: map-get($colors , color3);
+        color: map-get($written , color1 );
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none; 
+        margin-top: -3rem;
+        border-radius: 2px;
+        
+        
+      
+
+        
+    }
+span{
+            text-transform: lowercase;
+        }
 }
