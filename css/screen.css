@@ -414,6 +414,9 @@ section.m-color-quote {
   span {
     font-size: 2.4rem; } }
 
+.m-get-in-touch {
+  margin-bottom: 1rem; }
+
 .m-colonneC-big-container {
   display: flex;
   flex-direction: column;
@@ -422,6 +425,7 @@ section.m-color-quote {
 .m-colonneC-flex-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2.5rem;
   border: 1px solid brown; }
 
 .m-colonneC-flex-item {
@@ -533,6 +537,7 @@ footer a {
     padding: 2rem;
     background-color: #e64e04;
     color: #fff;
+    box-shadow: 3px -2px 8px 2px;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;

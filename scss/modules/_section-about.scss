@@ -8,6 +8,7 @@
         padding: 2rem;
         background-color: map-get($colors , color3);
         color: map-get($written , color1 );
+        box-shadow: 3px -2px 8px 2px;
         text-transform: uppercase;
         text-align: center;
         text-decoration: none; 
