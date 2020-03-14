@@ -515,3 +515,11 @@ footer a {
     font-size: 1.8rem; } }
 
 /* fin module footer */
+.color-buttom {
+  height: 3rem;
+  width: 4 rem;
+  padding: 1rem;
+  background-color: #e64e04;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center; }
