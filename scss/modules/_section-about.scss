@@ -4,23 +4,26 @@
     .color-buttom{
 
         height: 6rem;
-        display: inline-block;
+       display: inline-block;
+       vertical-align: middle; // centrage vertical
         padding: 2rem;
         background-color: map-get($colors , color3);
+        font-family: map-get($font-family , font2);
         color: map-get($written , color1 );
-        box-shadow: 3px -2px 8px 2px;
+       
         text-transform: uppercase;
         text-align: center;
         text-decoration: none; 
         margin-top: -3rem;
         border-radius: 2px;
         
-        
-      
-
+        i{
+            padding-left: 1.5rem;
+        }
         
     }
-span{
-            text-transform: lowercase;
-        }
+    .color-buttom:hover{
+        box-shadow: 3px -2px 8px 2px;
+    }
+
 }
